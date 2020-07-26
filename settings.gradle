@@ -1,0 +1,4 @@
+rootProject.name = 'leecode'
+include 'leecode1'
+findProject(':leecode1')?.name = 'leecode1'
+
